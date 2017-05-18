@@ -357,18 +357,21 @@ body,html{
 @media only screen and (max-width: 736px)  {
     /* Style adjustments for viewports that meet the condition */
 
+    #face{
+      padding: 3em;
+    }
+
     .left img{
-      width: 100%;
+      width: 50%;
       float: right;
       border: 1px solid #333;
-      margin: 0.5em;
+
     }
 
     .right img{
-      width: 100%;
+      width: 50%;
       float: right;
       border: 1px solid #333;
-      margin: 0.5em;
     }
 
     #swath{
@@ -398,6 +401,7 @@ body,html{
     .container-wide{
       width: 100%;
       padding: 1em;
+      margin-bottom: 0;
     }
     .third{
       width: 100%;
