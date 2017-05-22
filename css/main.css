@@ -147,7 +147,7 @@ a:hover{
 }
 
 .container{
-    width: 600px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     clear: both;
@@ -175,6 +175,10 @@ a:hover{
   margin: 0;
   font-size: 20px;
   line-height: 1.75em;
+  text-align: left;
+}
+i{
+  color: #666;
 }
 
 .clear{
@@ -245,7 +249,10 @@ body,html{
 #face{
   border-radius: 50%;
   width: 100%;
-  padding: 1em;
+}
+
+.social{
+  height: 2em;
 }
 
 
@@ -354,7 +361,7 @@ body,html{
   }
 }
 
-@media only screen and (max-width: 736px)  {
+@media only screen and (max-width: 800px)  {
     /* Style adjustments for viewports that meet the condition */
 
     #face{
